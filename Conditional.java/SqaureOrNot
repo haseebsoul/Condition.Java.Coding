@@ -1,0 +1,17 @@
+package Contions.java;
+import java.util.Scanner;
+public class SqaureOrNot {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the length:");
+        double length=sc.nextDouble();
+        System.out.println("Enter the bridth:");
+        double bridth=sc.nextDouble();
+        if(length==bridth){
+            System.out.println("The given what you want to find out is SQUARE :");
+        }
+        else if (length!=bridth){
+            System.out.println("Not a SQUARE:");
+        }
+    }
+}
